@@ -1,0 +1,114 @@
+@import url("../common/colors.css");
+
+* {
+  /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
+  font-family: "SF Mono", "Symbols Nerd Font", FontAwesome, Roboto, Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  transition: background-color 0.3s ease-out;
+}
+
+window#waybar {
+  background: transparent;
+  color: @foreground;
+  transition: background-color 0.5s;
+  /* background: alpha(@background, 0.4); */
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+  margin: 5px 5px;
+  padding: 0 5px;
+}
+.modules-left {
+  padding: 0 5px;
+}
+.modules-center {
+  padding: 0 5px;
+}
+
+#clock,
+#battery,
+#backlight,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#custom-notification,
+#tray,
+#language,
+#mpd {
+  padding: 0 10px;
+  border-radius: 8px;
+  border: 2px solid alpha(@background, 0.2);
+  background: alpha(@background, 0.6);
+}
+
+#clock:hover,
+#battery:hover,
+#backlight:hover,
+#cpu:hover,
+#memory:hover,
+#disk:hover,
+#temperature:hover,
+#backlight:hover,
+#network:hover,
+#pulseaudio:hover,
+#wireplumber:hover,
+#custom-media:hover,
+#custom-notification:hover,
+#tray:hover,
+#mode:hover,
+#idle_inhibitor:hover,
+#scratchpad:hover,
+#power-profiles-daemon:hover,
+#language:hover,
+#mpd:hover {
+  border: 2px solid alpha(@color6, 0.8);
+  border-radius: 8px;
+  margin: 0 0;
+}
+
+#workspaces {
+  background: alpha(@background, 0.6);
+  border-radius: 8px;
+  font-size: 13pt;
+  border: 2px solid alpha(@background, 0.2);
+}
+
+#workspaces button {
+  background: transparent;
+  color: @color11;
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces button.active {
+  background: alpha(@color8, 0.3);
+  color: @foreground;
+  padding: 0 12px;
+  transition: all 0.2s ease-in-out;
+}
+
+#workspaces button:hover {
+  background: alpha(@color12, 0.5);
+  color: @foreground;
+  box-shadow: none;
+}
+
+#workspaces button.empty {
+  color: #cdcdcd;
+}
+
+#workspaces button.empty.active {
+  color: @foreground;
+}
