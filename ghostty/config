@@ -1,8 +1,7 @@
-font-family = AdwaitaMono Nerd Font
+font-family = Paper Mono
 font-family = Symbols Nerd Font
 font-family = icomoon-feather
 font-family-italic = Maple Mono NF
-font-size = 14
-theme = vague
+font-size = 12
 
-background-opacity = 0.6
+theme = vague
