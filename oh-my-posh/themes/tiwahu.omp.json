@@ -5,8 +5,8 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "#007ACC",
-          "foreground": "#222222",
+          "background": "#6e94b2",
+          "foreground": "#141415",
           "properties": {
             "style": "austin",
             "threshold": 321
@@ -16,36 +16,36 @@
           "type": "executiontime"
         },
         {
-          "background": "#880000",
-          "foreground": "#ff8888",
+          "background": "#d8647e",
+          "foreground": "#252530",
           "style": "plain",
           "template": "{{ if gt .Code 0 }} {{ .Code }} {{ end }}",
           "type": "status"
         },
         {
-          "background": "#ffcc88",
-          "foreground": "#222222",
+          "background": "#f3be7c",
+          "foreground": "#141415",
           "style": "plain",
           "template": "\uf0e7",
           "type": "root"
         },
         {
-          "background": "#222222",
-          "foreground": "#666666",
+          "background": "#141415",
+          "foreground": "#606079",
           "style": "plain",
           "template": " {{ if .WSL }}\uebcc {{ end }}{{.Icon}}",
           "type": "os"
         },
         {
-          "background": "#222222",
-          "foreground": "#666666",
+          "background": "#141415",
+          "foreground": "#cdcdcd",
           "style": "plain",
           "template": " {{ if .SSHSession }}\ueba9 {{ end }}{{ .UserName }}@{{ .HostName }} ",
           "type": "session"
         },
         {
-          "background": "#444444",
-          "foreground": "#cccccc",
+          "background": "#606072",
+          "foreground": "#cdcdcd",
           "properties": {
             "folder_icon": "\u2026",
             "style": "mixed"
@@ -55,8 +55,8 @@
           "type": "path"
         },
         {
-          "background": "#cf432B",
-          "foreground": "#f1f0e9",
+          "background": "#8ba9c1",
+          "foreground": "#252530",
           "properties": {
             "branch_icon": "\ue725 ",
             "cherry_pick_icon": "\ue29b ",
@@ -75,7 +75,7 @@
         },
         {
           "background": "#7014eb",
-          "foreground": "#ffffff",
+          "foreground": "#252530",
           "properties": {
             "fetch_version": false
           },
@@ -85,7 +85,7 @@
         },
         {
           "background": "#7FD5EA",
-          "foreground": "#ffffff",
+          "foreground": "#252530",
           "properties": {
             "fetch_version": false
           },
@@ -95,7 +95,7 @@
         },
         {
           "background": "#906cff",
-          "foreground": "#100e23",
+          "foreground": "#cdcdcd",
           "properties": {
             "fetch_version": false
           },
@@ -121,7 +121,7 @@
       "newline": true,
       "segments": [
         {
-          "foreground": "#007ACC",
+          "foreground": "#8ba9c1",
           "style": "plain",
           "template": "{{ .Name }} ",
           "type": "shell",
@@ -133,7 +133,7 @@
               "lua": ">",
               "nu": ":)",
               "fish": "~>",
-              "zsh": "",
+              "zsh": " ",
               "bash": "$"
             }
           }

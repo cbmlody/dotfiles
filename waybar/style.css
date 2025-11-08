@@ -2,7 +2,7 @@
 
 * {
   /* `otf-font-awesome` and SpaceMono Nerd Font are required to be installed for icons */
-  font-family: "SF Mono", "Symbols Nerd Font", FontAwesome, Roboto, Helvetica;
+  font-family: "Adwaita Mono", "Symbols Nerd Font", FontAwesome, Roboto, Helvetica;
   font-size: 15px;
   font-weight: bold;
   transition: background-color 0.3s ease-out;
@@ -88,15 +88,15 @@ window#waybar {
 
 #workspaces button {
   background: transparent;
-  color: @color11;
-  transition: all 0.2s ease-in-out;
+  color: @color3;
+  transition: all 0.2s ease-out;
 }
 
 #workspaces button.active {
-  background: alpha(@color8, 0.3);
-  color: @foreground;
-  padding: 0 12px;
-  transition: all 0.2s ease-in-out;
+  background: alpha(@color0, 0.2);
+  /* color: @foreground; */
+  padding: 0 16px;
+  transition: all 0.2s ease-out;
 }
 
 #workspaces button:hover {
