@@ -1,0 +1,8 @@
+bat
+lazygit
+fzf
+eza
+zen-browser-bin
+ghostty
+zsh
+oh-my-posh

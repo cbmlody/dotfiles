@@ -76,6 +76,7 @@ alias gl="git log --all --graph --pretty='format:%C(magenta)%h %C(white) %an %ar
 alias gb="git branch"
 alias gco="git checkout"
 alias gcl="git clone"
+alias cat="bat"
 
 
 # Shell integrations
