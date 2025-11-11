@@ -1,4 +1,4 @@
-font-family = SFMono Nerd Font Mono
+font-family = Ioskeley Mono
 font-family = Symbols Nerd Font
 font-family = icomoon-feather
 font-family-italic = Maple Mono NF
@@ -7,3 +7,6 @@ font-size = 14
 theme = vague
 
 async-backend = auto
+shell-integration-features = no-cursor
+
+cursor-opacity = 0.5
