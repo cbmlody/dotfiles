@@ -6,3 +6,6 @@ zen-browser-bin
 ghostty
 zsh
 oh-my-posh
+fnott
+libnotify
+dunst
